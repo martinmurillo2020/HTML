@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+header {background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;}
+
+.logo{width:70%;}
+
+table{width: 50%;
+      border: 5px solid #000; 
+      border-collapse: collapse;
+      margin: auto;
+      margin-top: 4%;}
+
+th, td{width: 30%;
+       text-align: left;
+       vertical-align: center;
+       border: 1.5px solid #000; 
+       padding: 0.50em;
+       text-align: center;}
+
+.pedido, .cliente{background-color:chartreuse ;}
+
+.base, .baño, .cubi{background-color: darkorange;}
+
+.cantidad{background-color: darkblue;}
+
+.fecha{background-color: crimson;}
+   
+footer {background-color: #777;
+        padding: 10px;
+        margin-top: 10%;}
+
+@media (max-width: 600px) {
+
+    table{width: 80%;
+          height: auto; font-size: 8px; line-height: 300%;}
+    
+}
